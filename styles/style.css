@@ -1,0 +1,97 @@
+.jumbotron {
+    background: #000 url("../shopping.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav{
+	background-color: rgba(200,200,200,0.4);
+}
+.navbar{
+	background-color: white;
+}
+
+#titlePage{
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+.searchDiv{
+	margin-bottom: 20px;
+}
+
+input.search {
+	display: block;
+	width: 300px;
+	margin: 5px auto;
+	padding: 10px;
+  	border: solid 1px #dcdcdc;
+  	transition: box-shadow 0.3s, border 0.3s;
+}
+
+input.search:focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+
+
+.container {
+	text-align: center;
+}
+
+.content {
+	display: inline-block;
+}
+
+.col-sm-4 {
+	height: 400px;
+}
+
+.summaryImage {
+	width: 100%;
+	height: 300px;
+}
+
+.summary{
+	border: 2px solid #B36A5E;
+}
+
+.summary:hover{
+	background: lavender;
+}
+
+.description{
+	column-count: 2;
+	text-align: left;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.loButton{
+	color: white;
+}
+
+
+
+
